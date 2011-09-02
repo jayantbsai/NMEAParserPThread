@@ -1,0 +1,215 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F4CB8B91404CF0F00C4DB83 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 9F4CB8B81404CF0F00C4DB83 /* main.c */; };
+		9F4CB8BB1404CF0F00C4DB83 /* NMEAParserPThread.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9F4CB8BA1404CF0F00C4DB83 /* NMEAParserPThread.1 */; };
+		9F4CB8C61404CF3B00C4DB83 /* Connection.c in Sources */ = {isa = PBXBuildFile; fileRef = 9F4CB8C51404CF3B00C4DB83 /* Connection.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9F4CB8B21404CF0F00C4DB83 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				9F4CB8BB1404CF0F00C4DB83 /* NMEAParserPThread.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9F4CB8B41404CF0F00C4DB83 /* NMEAParserPThread */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NMEAParserPThread; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F4CB8B81404CF0F00C4DB83 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		9F4CB8BA1404CF0F00C4DB83 /* NMEAParserPThread.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = NMEAParserPThread.1; sourceTree = "<group>"; };
+		9F4CB8C51404CF3B00C4DB83 /* Connection.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Connection.c; sourceTree = "<group>"; };
+		9FD883191404CF9C00DAEA7B /* Connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Connection.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F4CB8B11404CF0F00C4DB83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F4CB8A91404CF0F00C4DB83 = {
+			isa = PBXGroup;
+			children = (
+				9F4CB8B71404CF0F00C4DB83 /* NMEAParserPThread */,
+				9F4CB8B51404CF0F00C4DB83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F4CB8B51404CF0F00C4DB83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F4CB8B41404CF0F00C4DB83 /* NMEAParserPThread */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F4CB8B71404CF0F00C4DB83 /* NMEAParserPThread */ = {
+			isa = PBXGroup;
+			children = (
+				9F4CB8B81404CF0F00C4DB83 /* main.c */,
+				9F4CB8BA1404CF0F00C4DB83 /* NMEAParserPThread.1 */,
+				9FD883191404CF9C00DAEA7B /* Connection.h */,
+				9F4CB8C51404CF3B00C4DB83 /* Connection.c */,
+			);
+			path = NMEAParserPThread;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F4CB8B31404CF0F00C4DB83 /* NMEAParserPThread */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F4CB8BE1404CF0F00C4DB83 /* Build configuration list for PBXNativeTarget "NMEAParserPThread" */;
+			buildPhases = (
+				9F4CB8B01404CF0F00C4DB83 /* Sources */,
+				9F4CB8B11404CF0F00C4DB83 /* Frameworks */,
+				9F4CB8B21404CF0F00C4DB83 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NMEAParserPThread;
+			productName = NMEAParserPThread;
+			productReference = 9F4CB8B41404CF0F00C4DB83 /* NMEAParserPThread */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F4CB8AB1404CF0F00C4DB83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 9F4CB8AE1404CF0F00C4DB83 /* Build configuration list for PBXProject "NMEAParserPThread" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9F4CB8A91404CF0F00C4DB83;
+			productRefGroup = 9F4CB8B51404CF0F00C4DB83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F4CB8B31404CF0F00C4DB83 /* NMEAParserPThread */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F4CB8B01404CF0F00C4DB83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F4CB8B91404CF0F00C4DB83 /* main.c in Sources */,
+				9F4CB8C61404CF3B00C4DB83 /* Connection.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9F4CB8BC1404CF0F00C4DB83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9F4CB8BD1404CF0F00C4DB83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9F4CB8BF1404CF0F00C4DB83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9F4CB8C01404CF0F00C4DB83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F4CB8AE1404CF0F00C4DB83 /* Build configuration list for PBXProject "NMEAParserPThread" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F4CB8BC1404CF0F00C4DB83 /* Debug */,
+				9F4CB8BD1404CF0F00C4DB83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F4CB8BE1404CF0F00C4DB83 /* Build configuration list for PBXNativeTarget "NMEAParserPThread" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F4CB8BF1404CF0F00C4DB83 /* Debug */,
+				9F4CB8C01404CF0F00C4DB83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F4CB8AB1404CF0F00C4DB83 /* Project object */;
+}
